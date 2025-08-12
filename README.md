@@ -1,4 +1,4 @@
-# Mercor Mini-Interview Task: Airtable Automation Solution 
+# Mercor Applicant Tracker: Airtable Multi-Table Form + JSON Automation Solution
 ###### Developer: CHANDANA JUTTU
 
 This project implements an Airtable-based data model and Python automation system for contractor application management, as specified in the Mercor Mini-Interview Task doc.
@@ -119,4 +119,5 @@ The shortlisting logic is defined within `shortlist_automation.py`. To extend or
 
 - Ensured API keys are stored in a `.env` file and are not hard-coded
 - LLM integration includes budget guardrails (like token limits, re-evaluation checks toavoid regenerating for already compressed json) and robust error handling.
+
 - All script activity is logged for auditing and debugging purposes.
